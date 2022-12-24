@@ -5,6 +5,7 @@ WORKDIR /src
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 
 COPY . .
+COPY ./dataset.json /src/storage/app
 
 RUN composer install
 CMD [ "/bin/sh", "php artisan db:wipe"]
