@@ -37,7 +37,7 @@ curl --location --request POST 'http://localhost:8000/api/add' \
     --form 'sub_department="Backend"'
 `
 2. An API to delete a record to the dataset. `DELETE /api/delete/{id}`
-`curl --location --request DELETE 'http://localhost:8000/api/delete/7' --header 'Authorization: Bearer {token}'
+`curl --location --request DELETE 'http://localhost:8000/api/delete/7' --header 'Authorization: Bearer {token}'`
 
 3. An API to fetch SS for salary over the entire dataset.  `GET /api/fetch/all`
 `curl --location --request GET 'http://localhost:8000/api/fetch/all' --header 'Authorization: Bearer {token}}'`
