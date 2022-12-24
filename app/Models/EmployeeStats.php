@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Models;
+
 use Illuminate\Database\Eloquent\Model;
 
-class User extends Model
+class EmployeeStats extends Model
 {
 
     /**
@@ -11,9 +12,8 @@ class User extends Model
      *
      * @var array
      */
-    protected $table = 'users';
     protected $fillable = [
-        'username', 'password', 'token'
+        'name', 'salary', 'currency', 'department', 'on_contract', 'sub_department'
     ];
 
     /**
