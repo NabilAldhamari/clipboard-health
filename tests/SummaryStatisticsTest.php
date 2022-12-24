@@ -6,7 +6,7 @@ use Laravel\Lumen\Testing\DatabaseMigrations;
 use Laravel\Lumen\Testing\DatabaseTransactions;
 use App\Statistics\SummaryStatistics;
 
-class ExampleTest extends TestCase
+class SummaryStatisticsTest extends TestCase
 {
     
     public function testStatisticsSummaryWithCorrectValues()
